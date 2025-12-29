@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 load_dotenv()
 
-os.environ["GOOGLE_API_KEY"] = os.getenv("gemini")
+
 
 st.set_page_config(page_title="DS AI Mentor",layout="wide")
 
@@ -214,3 +214,4 @@ elif page == "Agentic AI":
     chat_topic("agentic ai", "Agentic AI")
 
      
+
